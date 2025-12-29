@@ -416,3 +416,10 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+
+# Mac мусор (шаблон Visual Studio его не всегда включает)
+.DS_Store
+
+# Твои секреты (шаблон про них знать не может)
+appsettings.json
